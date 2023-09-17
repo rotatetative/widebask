@@ -1,0 +1,101 @@
+.hero__screen__v1{
+  background-size: cover;
+  background-position: center center;
+  .hero__slider{
+    .hero__slide{
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      .hero__slide__row{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 150px;
+        align-items: center;
+        .right{
+          img{
+            display: block;
+            width: 100%;
+          }
+        }
+        .left{
+          .top-title{
+            text-transform: uppercase;
+            font-size: 20px;
+            line-height: 1.5;
+            font-weight: 300;
+          }
+          h1{
+            font-size: 50px;
+            padding: 20px 0px;
+            font-weight: 500;
+          }
+          .content{
+            p{
+              font-size: 20px;
+            }
+          }
+          a{
+            display: flex;
+            text-decoration: none;
+            height: 55px;
+            margin-top: 40px;
+            align-items: center;
+            width: 180px;
+            color: #000;
+            border: 1px solid #000;
+            text-align: center;
+            justify-content: center;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hero__screen__v2{
+  .hero__slide{
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero__slide__row{
+      width: 100%;
+      text-align: center;
+      .top-title{
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 300;
+      }
+      h1{
+        font-size: 80px;
+        padding: 10px 0px;
+        font-weight: 500;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .content{
+        p{
+          font-size: 20px;
+        }
+      }
+      a{
+        display: flex;
+        text-decoration: none;
+        height: 55px;
+        align-items: center;
+        width: 180px;
+        color: #000;
+        border: 1px solid #000;
+        text-align: center;
+        justify-content: center;
+        font-weight: 500;
+        margin: 40px auto 0px;
+      }
+    }
+  }
+}

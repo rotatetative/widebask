@@ -1,0 +1,132 @@
+header.header{
+  .header-icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: flex-end;
+    .button{
+      a{
+        display: flex;
+        text-decoration: none;
+        height: 45px;
+        align-items: center;
+        width: 180px;
+        color: #000;
+        border: 1px solid #000;
+        text-align: center;
+        justify-content: center;
+        font-weight: 500;
+      }
+    }
+    ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: flex-end;
+      svg{
+        width: 25px;
+        height: 25px;
+        color: #000;
+        display: block;
+      }
+    }
+  }
+  .menu{
+    ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      li{
+        a{
+          color: #000;
+          text-decoration: none;
+          i{
+            font-size: 10px;
+          }
+        }
+        ul{
+          display: none;
+        }
+      }
+    }
+  }
+  .logo{
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+.header-centered{
+  background: $accent;
+  .header__row{
+    padding: 25px 0px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    gap: 30px;
+    align-items: center;
+  }
+}
+
+.header-left{
+  background: $accent;
+  .header__row{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    .logo-menu{
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      .logo{
+        img{
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}
+
+.no-back{
+  background: #fff;
+}
+
+.separator{
+  height: 5px;
+  background: #000;
+  margin: 80px 0px;
+}
+
+.black-bg{
+  background: #171412;
+  .header-icons{
+    .button{
+      a{
+        color: #fff!important;
+        border: 1px solid #fff!important;
+      }
+    }
+    ul{
+      svg path{
+        fill: #fff!important;
+      }
+    }
+  }
+  .menu{
+    ul{
+      li{
+        a{
+          color: #fff!important;
+          i{
+            color: #fff!important;
+          }
+        }
+      }
+    }
+  }
+}
