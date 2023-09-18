@@ -28,6 +28,7 @@ body, html {
 
 .wrapper {
   flex: 1 0 auto;
+  overflow-x: hidden;
 }
 
 footer {
@@ -459,7 +460,7 @@ header.header .logo img {
 }
 @media screen and (max-width: 1440px) {
   .proposals__section {
-    padding: 50px 20px;
+    padding: 50px 0px;
   }
   .proposals__section .proposal__slider__section {
     padding: 0px 20px;
