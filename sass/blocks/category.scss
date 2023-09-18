@@ -1,0 +1,125 @@
+.proposals__section{
+  position: relative;
+  background: #0b1133;
+  padding: 80px 0px;
+  z-index: 4;
+  .proposal__slider__section{
+    overflow: hidden;
+    width: calc(((100vw - 1400px)/ 2) + 1400px);
+    margin-left: auto;
+    .proposal__slider{
+      margin-left: -300px;
+      width: calc(100% + 300px);
+      .item{
+        background: #f5dc15;
+        .image{
+          img{
+            display: block;
+            width: 100%;
+            min-height: 250px;
+            max-height: 250px;
+            object-fit: cover;
+          }
+        }
+        .descr{
+          padding: 30px 30px;
+          a{
+            color: #000;
+            font-weight: 300;
+            text-decoration: none;
+            font-size: 18px;
+          }
+          p{
+            margin-top: 5px;
+            opacity: .5;
+          }
+        }
+      }
+    }
+  }
+  .proposals__slider__btns{
+    margin-top: 50px;
+    .proposals__slider__container{
+      .left__btns{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 320px;
+        svg{
+          display: block;
+        }
+        button{
+          background: transparent;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+.proposals__title{
+  padding-bottom: 50px;
+  h2{
+    font-size: 60px;
+    color: #fff;
+    padding-bottom: 15px;
+  }
+  p{
+    color: #fff;
+    line-height: 1.5;
+    max-width: 500px;
+    font-weight: 300;
+  }
+}
+
+.proposals__section__light{
+  background: #fff;
+  .proposals__title h2{
+    color: #000;
+  }
+  .proposals__title p{
+    color: #000;
+  }
+  .proposal__slider .item{
+    background: #0b1133!important;
+    a{
+      color: #fff!important;
+    }
+    p{
+      color: #fff;
+    }
+  }
+  .next-slide{
+    svg{
+      path{
+        fill: #000;
+      }
+    }
+  }
+}
+
+.proposals__section__yellow{
+  background: #f5dc15;
+  .proposals__title h2{
+    color: #000;
+  }
+  .proposals__title p{
+    color: #000;
+  }
+  .proposal__slider .item{
+    background: #0b1133!important;
+    a{
+      color: #fff!important;
+    }
+    p{
+      color: #fff;
+    }
+  }
+  .next-slide{
+    svg{
+      path{
+        fill: #000;
+      }
+    }
+  }
+}

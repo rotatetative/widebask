@@ -1,0 +1,106 @@
+@media screen and (max-width: 1025px) {
+  .hero__screen__v1 .hero__slider .hero__slide .hero__slide__row {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .hero__screen__v1 .hero__slider .hero__slide .hero__slide__row .img {
+    order: 1;
+  }
+  .hero__screen__v1 .hero__slider .hero__slide .hero__slide__row .left {
+    order: 2;
+  }
+  .hero__screen__v1 .hero__slider .hero__slide {
+    min-height: auto;
+  }
+  .hero__container {
+    padding: 0px !important;
+  }
+  .hero__screen__v1 .hero__slider .hero__slide .hero__slide__row .left .top-title,
+  .hero__screen__v2 .hero__slide .hero__slide__row .top-title {
+    font-size: 15px;
+  }
+  .hero__screen__v1 .hero__slider .hero__slide .hero__slide__row .left {
+    padding: 0px 20px;
+    padding-bottom: 40px;
+  }
+  .hero__screen__v1 .hero__slider .hero__slide .hero__slide__row .left .content p,
+  .hero__screen__v2 .hero__slide .hero__slide__row .content p {
+    font-size: 15px;
+  }
+  .hero__screen__v1 .hero__slider .hero__slide .hero__slide__row .left h1,
+  .hero__screen__v2 .hero__slide .hero__slide__row h1 {
+    font-size: 36px;
+  }
+  .hero__screen__v2 .hero__slide .hero__slide__row {
+    padding: 0px 20px;
+  }
+  .hero__screen__v2 .hero__slide {
+    min-height: 60vh;
+  }
+  .header-centered .header__row,
+  .header-left .header__row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .header-centered .header__row .menu,
+  .header-left .header__row .menu {
+    display: none;
+  }
+  header.header .logo img,
+  .header-left .header__row .logo-menu .logo img {
+    max-width: 200px;
+  }
+  header.header .header-icons {
+    gap: 15px;
+  }
+}
+@media screen and (min-width: 1026px) and (max-width: 1366px) {
+  .hero__screen__v2 .hero__slide .hero__slide__row h1 {
+    font-size: 60px;
+  }
+  .hero__screen__v2 .hero__slide .hero__slide__row .top-title,
+  .hero__screen__v2 .hero__slide .hero__slide__row .content p {
+    font-size: 18px;
+  }
+  .hero__screen__v2 .hero__slide {
+    min-height: 80vh;
+  }
+  .hero__screen__v1 .hero__slider .hero__slide .hero__slide__row {
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header-centered .header__row .button__main,
+  .header-left .header__row .button__main {
+    display: none;
+  }
+  header.header .logo img, .header-left .header__row .logo-menu .logo img {
+    max-width: 150px;
+    width: 100%;
+  }
+  header.header .header-icons ul svg {
+    width: 20px;
+    height: 20px;
+  }
+  header.header .header-icons ul {
+    gap: 15px;
+  }
+  .proposals__title {
+    padding-bottom: 30px;
+  }
+  .proposals__title h2 {
+    font-size: 40px;
+  }
+  .proposals__title p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .proposals__section {
+    padding: 50px 20px;
+  }
+  .proposals__section .proposal__slider__section {
+    padding: 0px 20px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

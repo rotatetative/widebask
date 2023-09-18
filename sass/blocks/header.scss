@@ -4,7 +4,7 @@ header.header{
     align-items: center;
     gap: 30px;
     justify-content: flex-end;
-    .button{
+    .button__main{
       a{
         display: flex;
         text-decoration: none;
@@ -61,6 +61,7 @@ header.header{
 }
 
 .header-centered{
+  display: flex;
   background: $accent;
   .header__row{
     padding: 25px 0px;
@@ -105,7 +106,7 @@ header.header{
 .black-bg{
   background: #171412;
   .header-icons{
-    .button{
+    .button__main{
       a{
         color: #fff!important;
         border: 1px solid #fff!important;
@@ -126,6 +127,23 @@ header.header{
             color: #fff!important;
           }
         }
+      }
+    }
+  }
+}
+
+.menu__open{
+  svg{
+    display: block;
+    width: 20px;
+  }
+}
+
+.black-bg{
+  .menu__open{
+    svg{
+      path{
+        stroke: #fff!important;
       }
     }
   }
